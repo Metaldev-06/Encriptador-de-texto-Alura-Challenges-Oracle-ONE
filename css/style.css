@@ -179,8 +179,32 @@ body {
     .container {
         width: 99%;
     }
+    .container-content {
+        padding: 5px;
+    }
+    .container-buttons {
+        flex-direction: column;
+
+    }
     .container-buttons a{
         padding: 20px 10%;
-        
+        text-align: center  ;
+    }
+    .container-text {
+        width: 100%;
+    }
+    .text-desencriptar {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .text-desencriptar, .text-desencriptar:focus {
+        font-size: 18px;
+    }
+    .text-desencriptar::placeholder {
+        font-size: 18px;
+    }
+    .container-resultado {
+        width: 100%;
+        min-width: none;
     }
 }
