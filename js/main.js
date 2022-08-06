@@ -22,12 +22,12 @@ encriptar.addEventListener("click", () => {
       return mapObj[matched];
     });
 
-    textDefault.style.display = "none";
-    textResult.style.display = "flex";
+    quitarAlerta();
+    mostrarResultado();
 
     text.textContent = input;
   } else {
-    alert("Sólo minúsculas, caracteres especiales y sin acentos.");
+    mostrarAlerta();
   }
 });
 
@@ -47,12 +47,12 @@ desencriptar.addEventListener("click", () => {
       return mapObj[matched];
     });
 
-    textDefault.style.display = "none";
-    textResult.style.display = "flex";
+    quitarAlerta();
+    mostrarResultado();
 
     text.textContent = input;
   } else {
-    alert("Sólo minúsculas, caracteres especiales y sin acentos.");
+    mostrarAlerta();
   }
 });
 
@@ -69,3 +69,20 @@ copiar.addEventListener("click", () => {
     }, 1000);
   });
 });
+
+const mostrarResultado = () => {
+  textDefault.style.display = "none";
+  textResult.style.display = "flex";
+};
+const quitarAlerta = () => {
+  const alert = document.querySelector(".alert-disabled");
+  const alertText = document.querySelector(".text-desencriptar");
+  alertText.classList.remove("text-desencriptar-alert");
+  alert.classList.remove("alert-actived");
+};
+const mostrarAlerta = () => {
+  const alertText = document.querySelector(".text-desencriptar");
+  const alert = document.querySelector(".alert-disabled");
+  alert.classList.add("alert-actived");
+  alertText.classList.add("text-desencriptar-alert");
+};
