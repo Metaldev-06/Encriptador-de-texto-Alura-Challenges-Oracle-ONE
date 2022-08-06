@@ -54,18 +54,23 @@
     <li>Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.</li>
 </ul>
 
-<a href="https://metaldev-06.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/">
-    link del proyecto finalizado
-</a>
-
 <hr>
 
 <h2 align="center">
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/party-popper_1f389.png" width="35">
     Diseño final
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/party-popper_1f389.png" width="35">
-
 </h2>
+<p>
+    Aqui tienes el 
+    <a href="https://metaldev-06.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/">
+        link del proyecto finalizado
+    </a>
+    para que lo puedas ver
+</p>
+
+<br><br>
+
 <img src="https://cdn.discordapp.com/attachments/963137601152364554/1005369105483829288/unknown.png">
 
 <h2 align="center">
