@@ -64,7 +64,7 @@ copiar.addEventListener("click", () => {
     copiar.classList.add("btn-copiado");
 
     window.setTimeout(() => {
-      copiar.textContent = "copiar";
+      copiar.textContent = "Copiar";
       copiar.classList.remove("btn-copiado");
     }, 1000);
   });

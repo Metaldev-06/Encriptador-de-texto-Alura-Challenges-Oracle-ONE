@@ -113,6 +113,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
 }
 .container-text-default { /*Message default*/
     width: 100%;
