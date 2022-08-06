@@ -100,3 +100,21 @@
 <a href="https://trello.com/invite/b/ohC7jU1B/653804bf1e34218ced826c0389a45447/encriptador-de-texto-alura-challenges-one">
     link del Trello
 </a>
+
+<h2 align="center">
+<img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/envelope_2709-fe0f.png" width="35">
+    Mensaje secreto
+<img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/envelope_2709-fe0f.png" width="35">
+</h2>
+<p>
+    Para llegar a la solución esperada nos dieron un mensaje secreto que tendríamos que descifrar, te dejo el texto aquí abajo para que veas por tí mismo el mensaje <img src="https://camo.githubusercontent.com/d8a298a9418a4fc4ae9acad30caf94fafbf34e864be73ecb4dc6a8b13f73b4b4/68747470733a2f2f656d6f6a6970656469612d75732e73332e616d617a6f6e6177732e636f6d2f736f757263652f6d6963726f736f66742d7465616d732f3333372f6261636b68616e642d696e6465782d706f696e74696e672d646f776e5f6c696768742d736b696e2d746f6e655f31663434372d31663366625f31663366622e706e67" width="20">
+    <img src="https://camo.githubusercontent.com/d8a298a9418a4fc4ae9acad30caf94fafbf34e864be73ecb4dc6a8b13f73b4b4/68747470733a2f2f656d6f6a6970656469612d75732e73332e616d617a6f6e6177732e636f6d2f736f757263652f6d6963726f736f66742d7465616d732f3333372f6261636b68616e642d696e6465782d706f696e74696e672d646f776e5f6c696768742d736b696e2d746f6e655f31663434372d31663366625f31663366622e706e67" width="20">
+    <img src="https://camo.githubusercontent.com/d8a298a9418a4fc4ae9acad30caf94fafbf34e864be73ecb4dc6a8b13f73b4b4/68747470733a2f2f656d6f6a6970656469612d75732e73332e616d617a6f6e6177732e636f6d2f736f757263652f6d6963726f736f66742d7465616d732f3333372f6261636b68616e642d696e6465782d706f696e74696e672d646f776e5f6c696768742d736b696e2d746f6e655f31663434372d31663366625f31663366622e706e67" width="20">
+</p>
+<p>
+
+    fenterlimescimesdaidenters poberr enternfrenterntair enterstenter
+    dentersaifimesober y haibenterrlober cobernclufatimesdober cobern
+    enterximestober!
+
+</p>
