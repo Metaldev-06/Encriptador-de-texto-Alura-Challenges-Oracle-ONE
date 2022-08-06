@@ -9,8 +9,8 @@ const text = document.querySelector(".text-message-resultado");
 encriptar.addEventListener("click", () => {
   let input = document.getElementById("inputEncriptar").value;
 
-  const validacion = /([A-Z\d$@$!%*?&])/gm.test(input);
-  if (!validacion) {
+  const validacion = /([A-ZáéíóúÁÉÍÓÚñ\d$@$!%*?&])/gm.test(input);
+  if (!validacion && input.length > 0) {
     const mapObj = {
       e: "enter",
       i: "imes",
@@ -33,21 +33,27 @@ encriptar.addEventListener("click", () => {
 
 desencriptar.addEventListener("click", () => {
   let input = document.getElementById("inputEncriptar").value;
-  const mapObj = {
-    enter: "e",
-    imes: "i",
-    ai: "a",
-    ober: "o",
-    ufat: "u",
-  };
-  input = input.replace(/enter|imes|ai|ober|ufat/gm, (matched) => {
-    return mapObj[matched];
-  });
 
-  textDefault.style.display = "none";
-  textResult.style.display = "flex";
+  const validacion = /([A-Z\d$@$!%*?&\0-9])/gm.test(input);
+  if (!validacion && input.length > 0) {
+    const mapObj = {
+      enter: "e",
+      imes: "i",
+      ai: "a",
+      ober: "o",
+      ufat: "u",
+    };
+    input = input.replace(/enter|imes|ai|ober|ufat/gm, (matched) => {
+      return mapObj[matched];
+    });
 
-  text.textContent = input;
+    textDefault.style.display = "none";
+    textResult.style.display = "flex";
+
+    text.textContent = input;
+  } else {
+    alert("Sólo minúsculas, caracteres especiales y sin acentos.");
+  }
 });
 
 copiar.addEventListener("click", () => {
