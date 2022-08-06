@@ -186,6 +186,9 @@ body {
 .btn-copiar:active, .btn-desencriptar:active {
     transform: scale(0.8);
 }
+.btn-copiado {
+    color: green !important;
+}
 
 /* Media queries */
 

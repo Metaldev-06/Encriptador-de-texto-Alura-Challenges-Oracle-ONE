@@ -58,7 +58,14 @@ desencriptar.addEventListener("click", () => {
 
 copiar.addEventListener("click", () => {
   let copiado = text.textContent;
+
   navigator.clipboard.writeText(copiado).then(() => {
-    alert("Copiado al portapapeles");
+    copiar.textContent = "Copiado ✅";
+    copiar.classList.add("btn-copiado");
+
+    window.setTimeout(() => {
+      copiar.textContent = "copiar";
+      copiar.classList.remove("btn-copiado");
+    }, 1000);
   });
 });
