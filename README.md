@@ -61,6 +61,9 @@
     Diseño final
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/party-popper_1f389.png" width="35">
 </h2>
+
+<img src="https://cdn.discordapp.com/attachments/963137601152364554/1005369105483829288/unknown.png">
+<br><br>
 <p>
     Aqui tienes el 
     <a href="https://metaldev-06.github.io/Encriptador-de-texto-Alura-Challenges-Oracle-ONE/">
@@ -68,10 +71,6 @@
     </a>
     para que lo puedas ver
 </p>
-
-<br><br>
-
-<img src="https://cdn.discordapp.com/attachments/963137601152364554/1005369105483829288/unknown.png">
 
 <h2 align="center">
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/fire_1f525.png" width="35">
@@ -85,6 +84,9 @@
     Tablero en Trello
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/books_1f4da.png" width="35">
 </h2>
+
+<img src="https://cdn.discordapp.com/attachments/963137601152364554/1005371824789524500/unknown.png">
+<br><br>
 <p>
     Para organizarme y ver los requisitos que debería cumplir el proyecto
 </p>
@@ -92,5 +94,3 @@
 <a href="https://trello.com/invite/b/ohC7jU1B/653804bf1e34218ced826c0389a45447/encriptador-de-texto-alura-challenges-one">
     link del Trello
 </a>
-<br><br>
-<img src="https://cdn.discordapp.com/attachments/963137601152364554/1005371824789524500/unknown.png">
