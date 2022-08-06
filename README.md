@@ -4,7 +4,10 @@
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/locked-with-key_1f510.png" width="35">
 </h1>
 
-<h2>Insignia de finalización</h2>
+<h2>
+    <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/man-student-light-skin-tone_1f468-1f3fb-200d-1f393.png" width="35">
+    Insignia de finalización
+</h2>
 <div align="center">
     <img src="https://cdn.discordapp.com/attachments/963137601152364554/1005561025308930188/cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png" width="500">
 </div>
