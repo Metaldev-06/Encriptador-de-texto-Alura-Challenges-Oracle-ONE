@@ -34,7 +34,7 @@ encriptar.addEventListener("click", () => {
 desencriptar.addEventListener("click", () => {
   let input = document.getElementById("inputEncriptar").value;
 
-  const validacion = /([A-Z\d$@$!%*?&\0-9])/gm.test(input);
+  const validacion = /([A-ZáéíóúÁÉÍÓÚñ\d$@$!%*?&])/gm.test(input);
   if (!validacion && input.length > 0) {
     const mapObj = {
       enter: "e",
