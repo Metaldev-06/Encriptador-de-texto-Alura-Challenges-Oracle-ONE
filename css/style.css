@@ -82,7 +82,7 @@ body {
 .btn-encriptar::before {
     content: '';
     width: 0;
-    height: 500%;
+    height: 600%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -167,7 +167,7 @@ body {
 .btn-copiar::before, .btn-desencriptar::before {
     content: '';
     width: 0;
-    height: 400%;
+    height: 600%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -221,7 +221,7 @@ body {
     }
 }
 
-@media  (max-width: 375px) {
+@media  (max-width: 412px) {
     .container {
         width: 99%;
     }
