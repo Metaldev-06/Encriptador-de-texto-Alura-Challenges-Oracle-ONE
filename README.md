@@ -65,7 +65,7 @@
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/party-popper_1f389.png" width="35">
 </h2>
 
-<img src="https://cdn.discordapp.com/attachments/963137601152364554/1005369105483829288/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/963137601152364554/1005562269872169072/unknown.png">
 <br><br>
 <p>
     Aqui tienes el 
