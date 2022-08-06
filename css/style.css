@@ -48,7 +48,7 @@ body {
     outline: none;
     box-shadow: 0px 24px 32px -8px rgba(128, 128, 128, 0.2);
 }
-.text-desencriptar:focus {
+.text-desencriptar, .text-desencriptar:focus {
     color: var(--color-text-message-blue);
     font-size: 32px;
 }
@@ -89,7 +89,7 @@ body {
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
-.container-text-default {
+.container-text-default { /*Message default*/
     width: 100%;
     height: 100%;
     display: flex;
@@ -110,7 +110,7 @@ body {
 }
 
 /* Parte derecha cuando se encripta algo */
-.container-context-resultado {
+.container-context-resultado { /*Message resolución*/
     width: 100%;
     height: 100%;
     display: none;

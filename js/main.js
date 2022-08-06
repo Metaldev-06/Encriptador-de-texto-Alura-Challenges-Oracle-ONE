@@ -1,14 +1,58 @@
-//! La letra "e" es convertida para "enter"
-//! La letra "i" es convertida para "imes"
-//! La letra "a" es convertida para "ai"
-//! La letra "o" es convertida para "ober"
-//! La letra "u" es convertida para "ufat"
+const encriptar = document.getElementById("encriptar");
+const desencriptar = document.getElementById("desencriptar");
+const copiar = document.getElementById("copiar");
 
-const input = document.getElementById('inputEncriptar');
-const encriptar = document.getElementById('encriptar');
-const desencriptar = document.getElementById('desencriptar');
-const copiar = document.getElementById('copiar');
+const textDefault = document.querySelector(".container-text-default");
+const textResult = document.querySelector(".container-context-resultado");
+const text = document.querySelector(".text-message-resultado");
 
-encriptar.addEventListener('click', () => {
+encriptar.addEventListener("click", () => {
+  let input = document.getElementById("inputEncriptar").value;
 
+  const validacion = /([A-Z\d$@$!%*?&])/gm.test(input);
+  if (!validacion) {
+    const mapObj = {
+      e: "enter",
+      i: "imes",
+      a: "ai",
+      o: "ober",
+      u: "ufat",
+    };
+    input = input.replace(/e|i|a|o|u/gm, (matched) => {
+      return mapObj[matched];
+    });
+
+    textDefault.style.display = "none";
+    textResult.style.display = "flex";
+
+    text.textContent = input;
+  } else {
+    alert("Sólo minúsculas, caracteres especiales y sin acentos.");
+  }
+});
+
+desencriptar.addEventListener("click", () => {
+  let input = document.getElementById("inputEncriptar").value;
+  const mapObj = {
+    enter: "e",
+    imes: "i",
+    ai: "a",
+    ober: "o",
+    ufat: "u",
+  };
+  input = input.replace(/enter|imes|ai|ober|ufat/gm, (matched) => {
+    return mapObj[matched];
+  });
+
+  textDefault.style.display = "none";
+  textResult.style.display = "flex";
+
+  text.textContent = input;
+});
+
+copiar.addEventListener("click", () => {
+  let copiado = text.textContent;
+  navigator.clipboard.writeText(copiado).then(() => {
+    alert("Copiado al portapapeles");
+  });
 });
