@@ -3,9 +3,11 @@
     Encriptador de texto
     <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/locked-with-key_1f510.png" width="35">
 </h1>
-<p>
-    Primer challenge de Oracle Next Education y Alura con JavaScript, HTML y CSS
-</p>
+
+<h2>Insignia de finalización</h2>
+<div align="center">
+    <img src="https://cdn.discordapp.com/attachments/963137601152364554/1005561025308930188/cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png" width="500">
+</div>
 
 <h2>
 <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/rocket_1f680.png" width="30">
@@ -13,6 +15,7 @@
 </h2>
 
 <p>
+    Primer challenge de Oracle Next Education y Alura con JavaScript, HTML y CSS <br><br>
     El desafio consiste en construir una pagina web que encripte y desencripte texto que sera ingresado por el usuario y presentarlo en su forma encriptada o desencriptada, el objetivo de este desafio es poner a prueba los conocimientos adquiridos durante el curso "Principiante en programación"
 </p>
 
