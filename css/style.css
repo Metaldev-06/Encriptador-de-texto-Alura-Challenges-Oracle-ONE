@@ -46,8 +46,9 @@ body {
     border: 0;
     border-radius: 10px;
     outline: none;
-    box-shadow: 0px 24px 32px -8px rgba(128, 128, 128, 0.2);
+    box-shadow: 0px 24px 32px -8px rgba(154, 154, 154, 0.2);
     overflow-wrap: break-word;
+    background-color: var(--color-background);
 }
 .text-desencriptar, .text-desencriptar:focus {
     color: var(--color-text-message-blue);
@@ -63,21 +64,42 @@ body {
     justify-content: center;
     gap: 24px;
 }
-.container-buttons a{
-    padding: 24px 10%;
+.btn-encriptar {
+    padding: 24px 75px;
     background-color: var(--color-button-blue);
+    border: 2px solid var(--color-button-blue);
     border-radius: 24px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
     color: white;
-    text-decoration: none;
     cursor: pointer;
+}  
+.btn-encriptar::before {
+    content: '';
+    width: 0;
+    height: 500%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: white;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
 }
-.container-buttons a:hover{
-    background-color: #9fa3a8;
+.btn-encriptar:hover::before {
+    width: 105%;
 }
-.container-buttons .btn-desencriptar {
-    background-color: var(--color-button-grey);
-    color: var(--color-button-blue);
-    border: 1px solid var(--color-button-blue);
+.btn-encriptar:hover {
+    color: var(--color-text-message-blue);
+}
+.btn-encriptar:active {
+    transform: scale(0.8);
 }
 
 
@@ -127,18 +149,42 @@ body {
     line-height: 150%;
     color: #495057;
 }
-.btn-copiar {
-    padding: 24px 100px;
-    background-color: transparent;
-    color: var(--color-button-blue);
-    border: 1px solid var(--color-button-blue);
+.btn-copiar, .btn-desencriptar {
+    padding: 24px 75px;
+    border: 2px solid var(--color-button-blue);
     border-radius: 24px;
-    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: var(--color-button-blue);
     cursor: pointer;
 }
-.btn-copiar:hover {
-    background-color: var(--color-button-blue);
+.btn-copiar::before, .btn-desencriptar::before {
+    content: '';
+    width: 0;
+    height: 400%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: var(--color-button-blue);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.btn-copiar:hover::before, .btn-desencriptar:hover::before {
+    width: 105%;
+}
+.btn-copiar:hover, .btn-desencriptar:hover {
     color: white;
+}
+.btn-copiar:active, .btn-desencriptar:active {
+    transform: scale(0.8);
 }
 
 /* Media queries */
