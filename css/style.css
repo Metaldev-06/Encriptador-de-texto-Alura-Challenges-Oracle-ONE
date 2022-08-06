@@ -33,10 +33,6 @@ body {
     justify-content: space-between;
     padding: 20px;
 }
-.logo svg{
-    width:32px;
-    height:48px;
-}
 .container-text {
     width: 90%;
     height: 70%;
@@ -229,9 +225,8 @@ body {
     .container {
         width: 99%;
     }
-    .logo svg{
-        width:22px;
-        height:38px;
+    .logo{
+        width: 20px;
     }
     .container-content {
         padding: 5px;
